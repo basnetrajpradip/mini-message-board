@@ -1,0 +1,13 @@
+extends layout
+
+block pageInfo 
+  h3.hero-info Welcome to Create New Message!
+
+block content
+  .form-container 
+    form(method="POST" action="/new")
+      input(type="text" name="author" placeholder="Author's Name" required)#author 
+      textarea(name="message", cols="30", rows="10" placeholder="Type Message Here" required)#message
+      button(type="sumbit")#submit Post Message
+    .route-button
+      a(href="/") Back to MessageBoard

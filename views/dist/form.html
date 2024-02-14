@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+  </head>
+  <body>
+    <div class="hero">
+      <h1 class="hero-title">Mini Messageboard</h1>
+      <h3 class="hero-info">Welcome to Create New Message!</h3>
+    </div>
+    <div class="form-container"> 
+      <form method="POST" action="/new">
+        <input type="text" name="author" placeholder="Author's Name" required id="author">
+        <textarea name="message" cols="30" rows="10" placeholder="Type Message Here" required id="message"></textarea>
+        <button type="sumbit" id="submit">Post Message</button>
+      </form>
+      <div class="route-button"><a href="/">Back to MessageBoard</a></div>
+    </div>
+  </body>
+</html>

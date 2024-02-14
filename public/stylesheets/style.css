@@ -1,0 +1,116 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  background-color: rgba(15, 15, 66, 0.904);
+}
+
+.hero-title,
+.hero-info {
+  padding: 0;
+  margin: 0;
+  color: wheat;
+}
+
+.hero-title {
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+.hero-info {
+  font-size: 1.3rem;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 1.1rem;
+  color: wheat;
+  border: 2px solid wheat;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.user {
+  font-weight: 900;
+}
+
+.date {
+  font-size: 1rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+#author {
+  height: 2rem;
+  font-size: 1rem;
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  background-color: transparent;
+  border: 2px solid wheat;
+  color: wheat;
+  border-radius: 5px;
+}
+
+#message {
+  resize: none;
+  font-size: 1rem;
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+  background-color: transparent;
+  border: 2px solid wheat;
+  border-radius: 6px;
+  color: wheat;
+}
+
+#author::placeholder,
+#message::placeholder {
+  font-size: 1rem;
+}
+
+#submit {
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: transparent;
+  border: 2px solid wheat;
+  color: wheat;
+  height: 2.3rem;
+  cursor: pointer;
+}
+
+.route-button a {
+  text-decoration: none;
+  color: wheat;
+  border: 2px solid wheat;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
